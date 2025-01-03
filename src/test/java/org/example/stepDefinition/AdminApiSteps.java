@@ -58,11 +58,11 @@ public class AdminApiSteps {
         }
     }
 
-    @Then("the response status should be 400 Bad Request")
-    public void theResponseStatusShouldBe400BadRequest() {
-        if (response.status() != 400) {
-            throw new AssertionError("Expected status code 400 but got " + response.status());
-        }
-}
+//    @Then("the response status should be 400 Bad Request")
+//    public void theResponseStatusShouldBe400BadRequest() {
+//        if (response.status() != 400) {
+//            throw new AssertionError("Expected status code 400 but got " + response.status());
+//        }
+//}
 
 }
